@@ -1,0 +1,37 @@
+<!Doctype html5>
+<html lang="en-us">
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body onload="playWelcome()">
+<div>
+<div id="result"><p id="showResult"></p></div>
+<button type="button" onclick="calc(7),playSound(7)">7</button>
+<button type="button" onclick="calc(8),playSound(8)">8</button>
+<button type="button" onclick="calc(9),playSound(9)">9</button>
+<button type="button" onclick="calc('+'),playSound('+')">+</button><br />
+<button type="button" onclick="calc(4),playSound(4)">4</button>
+<button type="button" onclick="calc(5),playSound(5)">5</button>
+<button type="button" onclick="calc(6),playSound(6)">6</button>
+<button type="button" onclick="calc('-'),playSound('-')">-</button>
+<br />
+<button type="button" onclick="calc(1),playSound(1)">1</button>
+<button type="button" onclick="calc(2),playSound(2)">2</button>
+<button type="button" onclick="calc(3),playSound(3)">3</button>
+<button type="button" onclick="calc('*'),playSound('*')">*</button>
+<br />
+<button type="button" onclick="calc(0),playSound(0)">0</button>
+<button type="button" onclick="calc('.'),playSound('.')">.</button>
+<button type="button" onclick="calc('='),playSound('=')">=</button>
+<button type="button" onclick="calc('/'),playSound('/')">/</button>
+<button type="button" onclick="calc('c'),playSound('c')">C</button>
+</div>
+<audio id="speakNum">
+	<source id="source_of_audio" src="14050075.mp3" type="audio/mpeg">
+</audio>
+<a id="developer" href="https://www.facebook.com/shravan.saini.167" title="Contact the developer on fb"><img src="fb-logo.png" alt="fb logo"></src></a> 
+
+<script src="calc1.js"></script>
+</body>
+</html>
