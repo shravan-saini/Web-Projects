@@ -1,0 +1,146 @@
+body 		{
+				background-image:url("download.jpg");
+}
+img#img00,img#img01,img#img02,img#img10,img#img11,#img12,#img20,img#img21,img#img22,img#img23	{
+	display:none;		
+	width:50%;			/*styles for images of x and o        */
+	height:50%;
+	margin:12% 22%;
+}
+
+h1		{
+			text-align:center;  	/*style  for heading 'Tic Tac Toe' */
+			color:white;
+			font-size:250%;
+			width:350px;
+			font-family:verdana;
+			margin:auto;
+			
+}
+h2#turn	{  							/*style for h2 in nav-players*/
+	background-color:green;
+	color:white;
+}
+h2#p1name,h2#p1score,h2#p2name,h2#p2score,h2#tie,h2#tieScore	{		/*styles for nav-p1name,p1score,p2name,p2score etc...in nav-players*/
+	font-size:100%;
+	background-color:green;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+section#parent	{				/*style for the section containing 9 boxes(nav)*/
+				width:80%;
+				height:85%;
+				
+				float:right;
+				margin:auto;
+				background-color:white;
+}
+nav#div00	{					/* style for first box(nav) out of 9 boxes */
+				width:32%;
+				height:29%;
+				float:left;
+				border-right:5px inset blue;
+				border-bottom:5px inset blue;
+			
+			}
+			
+nav#div02	{
+				width:32%;
+				height:29%;
+				float:left;
+				border-left:5px inset blue;
+				border-bottom:5px inset blue;
+			}
+
+nav#div01	{
+				width:32%;
+				height:29%;
+				float:left;
+				border-bottom:5px inset blue;
+				margin:0px;
+			}
+
+nav#div10	{
+				width:32%;
+				height:29%;
+				float:left;
+				border-right:5px inset blue;
+				border-bottom:5px inset blue;
+			}
+			
+nav#div12	{
+				width:32%;
+				height:29%;
+				float:left;
+				border-left:5px inset blue;
+				border-bottom:5px inset blue;
+			}
+
+nav#div11	{
+				width:32%;
+				height:29%;
+				float:left;
+				border-bottom:5px inset blue;
+			}
+			
+nav#div20
+{
+	width:32%;
+	height:29%;
+	float:left;
+	border-right:5px inset blue;
+}
+			
+nav#div21	
+{
+	width:32%;
+	height:29%;
+	float:left;
+	border-right:5px inset blue;
+}
+			
+nav#div22	
+{
+	width:32%;
+	height:29%;
+	float:left;
+}
+			
+
+nav#players  			/*style for nav-players*/
+{
+	width:19%;
+	
+	float:left;
+}
+div.pname,div.ties	{				/*styles for  div-players name and ties*/
+	width:78%;
+	float:left;
+	
+	
+}
+
+div.pscore,div.tieScore	{				/*styles for div=players score and tie score*/
+	width:10%;
+	float:left;
+	text-align:left;
+	
+}
+
+button#newgame,button#resetWins	{			/*style for newgame and resetWins button */
+	width:80%;
+	margin:auto;
+	text-align:center;
+	background-color:green;
+	color:white;
+	border:5px outset red;
+	height:10%;
+	font-size:100%;
+	margin-bottom:10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+div#main_div	{
+	width:40%;
+	height:auto;
+	border:1px dotted red;			/*remove this border*/
+	margin:auto;
+	margin-top:10%;
+}
+div#main_div >div 	{
+	position:relative;
+	border:1px dashed red;   		/*remove this border*/
+	margin:20px 30%;
+	margin-bottom:0px;
+}
+button#s_t_button	{
+	
+	padding:12px 14px;
+	cursor:pointer;
+	background-color:green;
+	color:#f2f2f2;
+	width:213px;
+	border-radius:10px;
+}
+
+button#s_t_button:hover	{
+	background-color:#f2f2f2;
+	color:green;
+	box-shadow:10px 10px 10px black;
+}
+ol#teamList		{
+	display:none;
+}
+
+button#c_t_button{
+	padding:12px 14px;
+	cursor:pointer;
+	background-color:green;
+	color:#f2f2f2;
+	margin:20px 30%;
+	margin-bottom:0px;
+	width:213px;
+	text-align:center;
+	border-radius:10px;
+	
+
+}
+a#start		{
+	text-decoration:none;
+	margin:20px 43%;
+	width:213px;
+	background-color:green;
+	cursor:pointer;
+	color:#f2f2f2;
+	padding:12px 14px;
+	border-radius:10px;
+	
+}
+
+button#c_t_button:hover,a#start:hover	{
+	background-color:#f2f2f2;
+	color:green;
+	box-shadow:10px 10px 10px black;
+}

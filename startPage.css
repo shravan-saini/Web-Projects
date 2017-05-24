@@ -1,0 +1,71 @@
+form	{
+	
+	
+	width:100%;
+}
+body	{
+	background-image:url('bigthumbnail.jpg');
+	background-repeat:no-repeat;
+	color:#f2f2f2;
+}
+form fieldset	{
+	border-radius:10px;
+}
+form input[type=submit]	{
+	padding:10px 12px;
+	text-align:center;
+	background-color:green;
+	color:white;
+	margin-left:40%;
+	border-radius:10px;
+	cursor:pointer;
+	font-family:cooper black;
+	font-size:20px;
+	margin-top:25px;
+}
+
+form input[type=submit]:hover	{
+	background-color:white;
+	color:green;
+	box-shadow:10px 10px 10px black;
+}
+
+input[type=text],input[type=email],input[type=number],textarea,input[type=password],select	{
+	width:100%;
+	padding:10px 12px;
+	border-radius:10px;
+	margin:8px 0px;
+}
+div.main	{
+	
+	width:60%;
+	margin:10% auto;
+	
+	height:300px;
+	
+}
+*	{
+	box-sizing:border-box;
+}
+div.left,div.right	{
+	display:inline;
+	float:left;
+	width:50%;
+	
+}
+@media only screen and (max-width:1035px)	{
+	div.main	{
+		width:100%;
+	}
+}
+
+h1	{
+	text-align:center;
+	font-family:verdana;
+}
+legend +span	{
+	font-size:18px;
+	font-family:verdana;
+	font-weight:bold;
+	color:#f2f2f2;
+}
